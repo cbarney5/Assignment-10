@@ -6,7 +6,7 @@
 
 <div class="container">
     <h2>
-        @ViewData["Title"]
+        @Model.Team
     </h2>
 
     <table class="table">
@@ -43,7 +43,7 @@
     </table>
 </div>
 
-                <div page-info="@Model.PageNumberingInfo" team="@Model.Team"
-                     page-url-team="@Model.Team">
+<div page-info="@Model.PageNumberingInfo" team="@Model.Team"
+        page-url-team="@Model.Team">
 
-                </div>
+</div>
